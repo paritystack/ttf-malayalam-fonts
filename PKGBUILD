@@ -13,7 +13,7 @@ license=('GPL')
 depends=('fontconfig' 'xorg-fonts-encodings')
 install=ttf-malayalam-fonts.install
 source=(http://download.savannah.gnu.org/releases-noredirect/smc/fonts/malayalam-fonts-${pkgver}.tar.xz)
-md5sums=('d254061e0cd39d64ef3ac33e2d6b8ade')
+md5sums=('d80ffa4fb3796f69267347833096c081')
 
 build() {
   cd "${srcdir}/fonts" || return 1
